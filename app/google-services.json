@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982509913993",
+    "project_id": "motion-final",
+    "storage_bucket": "motion-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982509913993:android:507612ff64329725750358",
+        "android_client_info": {
+          "package_name": "com.example.motionfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982509913993-5rk8vd4bnfve5qd8qqjpd3cmsjidbj46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG8CUVwywfxBdkdnm49lAb6IR-fqy349c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982509913993-5rk8vd4bnfve5qd8qqjpd3cmsjidbj46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

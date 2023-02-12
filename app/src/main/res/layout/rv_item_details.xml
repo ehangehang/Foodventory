@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/details_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_delete_24"/>
+
+        <ImageView
+            android:id="@+id/details_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="18dp"
+            android:layout_toStartOf="@id/details_delete"
+            android:src="@drawable/ic_baseline_edit_24"/>
+
+        <TextView
+            android:id="@+id/details_txt_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="code_here"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/details_txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_edit"
+            android:layout_marginTop="5dp"
+            android:text="@string/details_name"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/details_txt_name_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/details_txt_name"
+            android:layout_alignBaseline="@+id/details_txt_name"
+            android:text="name_here"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/details_txt_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/details_txt_name"
+            android:layout_marginTop="5dp"
+            android:text="@string/details_quantity"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/details_txt_quantity_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/details_txt_quantity"
+            android:layout_alignBaseline="@+id/details_txt_quantity"
+            android:text="quantity_here"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
